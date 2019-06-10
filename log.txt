@@ -1,1 +1,11 @@
 2019-06-10 0:58 change to small screen, nav bar becomes vertical
+        10:00
+        #top, #banner, #contents, #main, article {
+        width: 400px;
+        }   
+        change these width to 400px. The text is inside the window 
+        when the screen size reduced. (Maybe I used a lot of margins 
+        so I have to reduced more) 
+
+        Problem: change .gallery to 3000px for samll screen NOT working
+        looks like the height has max height 
