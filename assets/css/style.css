@@ -16,7 +16,7 @@ body {
 #container {
     margin: auto;
     width: 97%;
-    /* padding-top: 20px; */
+    /* width:300px;    */
 }
 
 #top {
@@ -169,14 +169,29 @@ input[type=text], textarea {
     border-radius: 4px;
     cursor: pointer;
   }  
-  /*
-  .img-box {
-        position: relative;
-        text-align: center;    
+
+
+  @media only screen and (max-width: 640px) {
+    #banner, #contents {
+        width: 550px;
+    }
+
+    li {
+        float: none;
+    }
+
+    li a {
+        margin:10px 0px 0px 0px;;
+        padding:0px;
+      }
   }
-  .img-txt {
-      position: absolute;
-      bottom: 5px;
+
+  @media only screen and (max-width: 768px) {
+    #banner, #contents {
+        width: 650px;
+    }
+
   }
-  */
+
+  
 

@@ -1,0 +1,1 @@
+2019-06-10 0:58 change to small screen, nav bar becomes vertical
