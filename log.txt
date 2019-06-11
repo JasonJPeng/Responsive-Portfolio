@@ -9,3 +9,5 @@
 
         Problem: change .gallery to 3000px for samll screen NOT working
         looks like the height has max height 
+
+2019-06-10 added animation to change the brand "Jason Peng"         

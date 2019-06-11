@@ -51,7 +51,20 @@ header {
     background-color: #4aaaa5;
     padding:20px;
     height:100%;
+    animation-name: background;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     /* margin-left:-20px;  */
+}
+
+@keyframes background {
+    from {
+       background-color: #4aaaa5;
+       color:white;
+    } to {
+       background-color: white;
+       color:#4aaaa5;
+    }
 }
 
 
